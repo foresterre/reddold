@@ -24,15 +24,19 @@ function rewriteRedditUrl(req) {
 
   if (found != null && found[1] != null && found[2] != null) {
     var old_reddit = found[1] + "old." + found[2];
-    console.log("redirecting: " + url + " to: " + rewrite);
 
     rewrite = old_reddit;
+    console.log("redirecting: " + url + " to: " + rewrite);
   }
 
   return {
     redirectUrl: rewrite
   };
 }
+
+window.browser = (function () {
+  return window.browser || window.chrome || window.msBrowser;
+})();
 
 browser.webRequest.onBeforeRequest.addListener(
   rewriteRedditUrl,
