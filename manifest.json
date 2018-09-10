@@ -21,11 +21,4 @@
     "scripts": ["redirect_to_old.js"]
   }
 
-  // "content_scripts": [
-  //   {
-  //     "matches": ["*://www.reddit.com/*"],
-  //     "js": ["redirect_to_old.js"]
-  //   }
-  // ]
-
 }
