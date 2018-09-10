@@ -7,8 +7,8 @@
   "description": "Redirects www.reddit.com to old.reddit.com",
 
   "icons": {
-    "48": "icons/reddold_48_2.png",
-    "96": "icons/reddold_96_2.png"
+    "48": "icons/icon2_48.png",
+    "96": "icons/icon2_96.png"
   },
 
    "permissions": [
