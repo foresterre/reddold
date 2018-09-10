@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Reddold",
-  "version": "1",
+  "version": "2",
 
   "description": "Redirects www.reddit.com to old.reddit.com",
 
