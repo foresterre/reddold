@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "Reddold",
+  "version": "1",
+
+  "description": "Redirects www.reddit.com to old.reddit.com",
+
+  "icons": {
+    "48": "icons/reddold_48_2.png",
+    "96": "icons/reddold_96_2.png"
+  },
+
+   "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.reddit.com/"
+  ],
+
+  "background": {
+    "scripts": ["redirect_to_old.js"]
+  }
+
+  // "content_scripts": [
+  //   {
+  //     "matches": ["*://www.reddit.com/*"],
+  //     "js": ["redirect_to_old.js"]
+  //   }
+  // ]
+
+}
